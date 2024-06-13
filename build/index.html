@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- link for fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <nav class="bg-gray-700 py-4 px-6 text-white overflow-hidden">
+        <div class="container mx-auto px-2 flex justify-between">
+            <div>
+                <h1 class="text-3xl font-pacifico">🧘 GoFitness</h1>
+            </div>
+
+        
+            <div class="hidden sm:flex space-x-4 text-lg">
+                <ul class="flex space-x-4 text-lg">
+                    <li><a href="#BLOG">BLOG</a></li>
+                    <li><a href="#COACHING">COACHING</a></li>
+                    <li><a href="#LATEST">LATEST</a></li>
+                    <li><a href="#NEWSLETTER">NEWSLETTER</a></li>
+                </ul>
+            </div>
+            
+
+            <!-- Hamburger Menu for small screens -->
+            <div class="sm:hidden">
+                <button id="menu-toggle" class="text-white focus:outline-none overflow-hidden">
+                    <i class="fas fa-bars fa-lg"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+      <!-- Responsive Navigation Menu for small screens -->
+    <div id="mobile-menu" class="hidden sm:hidden bg-gray-800 text-white py-4 px-6 overflow-hidden">
+        <ul class="flex flex-col space-y-2">
+            <li><a href="#BLOG">BLOG</a></li>
+            <li><a href="#COACHING">COACHING</a></li>
+            <li><a href="#LATEST">LATEST</a></li>
+            <li><a href="#NEWSLETTER">NEWSLETTER</a></li>
+        </ul>
+    </div>
+
+
+   <!-- Hero Section-->
+   <section id="Hero" class="py-16 flex overflow-hidden">
+    <div class="container">
+        <div class="mx-auto px-2 flex flex-col-reverse sm:flex-row overflow-hidden">
+           
+
+            <div class="sm:w-1/2 flex flex-col justify-center px-4">
+                <h2 class="text-3xl py-6 font-bold">Stop Guessing And Stressing About How To Be Healthy</h2>
+                <p class="py-6">A healthy life is a journey and not a destination, get our tips to learn how to make
+                    conscious choices on how to live a healthier life.</p>
+                <div>
+                    <a class="bg-slate-400 inline-block px-20 py-2  hover:bg-slate-800">Email address</a>
+                    <a class="bg-slate-800 inline-block px-10 py-2 uppercase text-white hover:bg-slate-400 ">Sign up</a>
+                </div>
+            </div>
+
+            <div class="sm:w-1/2">
+                <img class="w-full" src="./images/pexels-willpicturethis-1954524.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Blog Section  -->
+
+    <section id="BLOG" class="py-16 overflow-hidden">
+        <div class="container mx-auto flex gap-4 sm:columns-auto">
+            <div class="w-1/3 shadow-lg rounded-lg overflow-hidden">
+                <img class="w-full" src="./images/pexels-moe-magners-6668921-removebg-preview.png" alt="">
+
+                <div class="pt-2 pl-5">
+                    <a class="bg-green-200 px-4 py-1 pb-1 font-bold">NUTRITION</a>
+                </div>
+
+                <div class="py-4 px-4">
+                    <h3 class="text-2xl font-bold">Is A Calorie Really A <br>Calorie?</h3>
+                    <p>All calories are not created equal. To understand why we take a look at the thermic effect of
+                        food and the domino effect of eating more protein.</p>
+
+                </div>
+
+                <div class="px-4 py-4">
+                    <a class="font-pacifico text-border text-border:hover">READ MORE</a>
+                </div>
+
+            </div>
+
+
+            <div class="w-1/3 shadow-lg rounded-lg overflow-hidden">
+                <img class="w-full" src="./images/pexels-ketut-subiyanto-4719936.jpg" alt="">
+
+                <div class="pt-2 pl-5">
+                    <a class="bg-green-200 px-4 py-1  pb-1 font-bold">FITNESS</a>
+                </div>
+
+                <div class="py-4 px-4">
+                    <h3 class="text-2xl font-bold">The Importance of <br>Cardio</h3>
+                    <p>Cardiovascular exercise, or cardio, is crucial for maintaining heart health, improving
+                        circulation, boosting metabolism.</p>
+
+                </div>
+
+                <div class="px-4 py-4">
+                    <a class="font-pacifico text-border text-border:hover">READ MORE</a>
+                </div>
+
+            </div>
+
+
+            <div class="w-1/3 shadow-lg rounded-lg overflow-hidden">
+                <img class="w-full" src="./images/pexels-olly-3775566.jpg" alt="">
+
+                <div class="pt-2 pl-5">
+                    <a class="bg-green-200 px-4 py-1 pb-1 font-bold">FITNESS</a>
+                </div>
+
+                <div class="py-4 px-4">
+                    <h3 class="text-2xl font-bold">Does lunges really makes your <br>butt bigger?</h3>
+                    <p>Lunges primarily target the muscles in the lower body, including the glutes (buttocks),
+                        quadriceps, and hamstrings.</p>
+
+                </div>
+
+                <div class="px-4 py-4">
+                    <a class="font-pacifico text-border text-border:hover">READ MORE</a>
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <!-- Latest section -->
+
+    <section id="LATEST" class="pb-20">
+        <div class="image-container pt-28">
+            <div class="image-container">
+                <div class="first-image-content flex justify-center fade-image image1">
+                    <img src="./images/pexels-andres-ayrton-6551456.jpg" alt="Image 1" width="600px">
+                    <div class="page-intro bg-slate-600 ">
+                        <h3 class="text-2xl text-zinc-700"> FEATURED POSTS </h3>
+                        <h1 class="">Exercise strengthens muscles.</h1>
+                        <p class="w-72">Workout: Improve strength, endurance, flexibility, cardiovascular health; energize, destress, boost confidence; enhance overall well-being.</p>
+                        <button class="read-button bg-black text-slate-200 h-14 w-36 font-semibold mt-6 rounded-lg">Read
+                            More <span>&#8594;</span></button>
+                    </div>
+                </div>
+                <div class="first-image-content flex justify-center  fade-image image2">
+                    <img src="./images/pexels-mikegles-14679051.jpg" alt="Image 2" width="600px">
+                    <div class="page-intro bg-slate-600 ">
+                        <h3 class="text-2xl text-zinc-700">FEATURED POSTS</h3>
+                        <h1 class="">I am A Blogger & I Love to workout</h1>
+                        <p class="w-72">Engage in physical activity, sweat, challenge limits, set goals, persevere, achieve progress, enjoy rewards, cultivate discipline, thrive.</p>
+                        <button class="read-button bg-black text-slate-200 h-14 w-36 font-semibold mt-6 rounded-lg">Read
+                            More <span>&#8594;</span></button>
+                    </div>
+                </div>
+
+                <div class="first-image-content flex justify-center  fade-image image3">
+                    <img src="./images/pexels-julia-larson-6455925.jpg" alt="Image 3" width="600px">
+                    <div class="page-intro bg-slate-600 ">
+                        <h3 class="text-2xl text-zinc-700">FEATURED POSTS</h3>
+                        <h1 class="">"I am a fitness enthusiast."</h1>
+                        <p class="w-72">"I'm passionate about fitness; exercise fuels my energy, shapes my body, and promotes a healthy lifestyle that I cherish."</p>
+                        <button class="read-button bg-black text-slate-200 h-14 w-36 font-semibold mt-6 rounded-lg">Read
+                            More <span>&#8594;</span></button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Coaching section -->
+    <section id="COACHING" class=" px-6 py-16">
+        <div class="grid grid-cols-3 space-x-3">
+            <div class="grid-rows-2 space-y-5">
+
+                <img src="https://breakingmuscle.com/wp-content/uploads/2023/02/Shutterstock_1926926777.jpg" alt="">
+                <h1 class="text-1xl font-bold">The Ultimate Back and Biceps Workout for Every Lifter From Beginner to
+                    Advanced</h1>
+
+
+
+                <img src="https://breakingmuscle.com/wp-content/uploads/2023/01/BreakingMuscle.com-Featured-Image-1600x900-A-person-doing-a-barbell-bench-press.jpg"
+                    alt="">
+                <h1 class="text-1xl font-bold">The Ultimate Bench Press Workout to Increase Strength and Muscle</h1>
+
+
+
+            </div>
+
+            <div class="grid-rows-2 space-y-5">
+
+                <img src="https://breakingmuscle.com/wp-content/uploads/2023/01/Shutterstock_529632616.jpg" alt="">
+                <h1 class="text-1xl font-bold">Try These Biceps Workouts Without Weights for Muscle, Strength, and Fat
+                    Loss</h1>
+
+
+                <img src="https://breakingmuscle.com/wp-content/uploads/2022/12/Shutterstock_1211457310.jpg" alt="">
+                <h1 class="text-1xl font-bold">The Only Airport Workout You’ll Need When Traveling</h1>
+
+
+
+
+
+            </div>
+
+            <div class="grid-rows-2 space-y-5">
+
+                <img src="https://breakingmuscle.com/wp-content/uploads/2022/12/Shutterstock_1793453134.jpg" alt="">
+                <h1 class="text-1xl font-bold">Try These Hotel Workouts to Stay Fit During Holiday Travel</h1>
+
+
+
+
+
+                <img src="https://breakingmuscle.com/wp-content/uploads/2022/09/Shutterstock_2182752963.jpg" alt="">
+                <h1 class="text-1xl font-bold">Try These 3 Air Bike Workouts for Conditioning, Fat Loss, and More
+                </h1>
+
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+    </section>
+
+
+
+    <!-- Newsletter -->
+    <section id="NEWSLETTER" class=" bg-black">
+        <div class="container">
+            <div class="mx-auto px-2 flex flex-col-reverse sm:flex-row">
+            <div class="w-1/2">
+                <img class="w-full" src="./images/10.jpg" alt="">
+            </div>
+
+            <div class=" flex flex-col justify-center w-1/2 px-8">
+                <h2 class="text-3xl py-6 font-bold text-white">Be the <span class="text-red-700">smartest person</span> in your gym</h2>
+                <p class="py-6 text-white">The Breaking Muscle newsletter is everything you need to know about strength in a 3 minute read.</p>
+                <div>
+                
+                    <a class="bg-red-700 inline-block rounded px-2 py-2 uppercase font-bold hover:bg-slate-600 text-white ">I want in!</a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+
+    <footer id="contact" class="bg-gray-600 p-8">
+        <div class="container mx-auto text-white flex flex-col-reverse sm:flex-row gap-2">
+            <div class=" Contact-block flex justify-between">
+                <div>
+                    <h2 class="text-red-500 font-bold mx-4 mb-2 text-2xl">Contact</h2>
+
+                    <form class="w-full h-60 ml-4">
+                        <div class="mb-4">
+                          <label for="name" class=" text-white text-sm font-bold mb-2">Name</label>
+                          <input id="name" type="text" placeholder="Your Full Name" class="appearance-none border rounded w-full py-1 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                        </div>
+                        <div class="mb-4">
+                          <label for="email" class=" text-white text-sm font-bold mb-2">Email</label>
+                          <input id="email" type="email" placeholder="Yourname@gmail.com" class="appearance-none border rounded w-full py-1 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                        </div>
+                        <div class="mb-4">
+                          <label for="message" class="text-white text-sm font-bold mb-2">Message</label>
+                          <textarea id="message" placeholder="Your Message" class="appearance-none border rounded w-full py-1 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"></textarea>
+                        </div>
+                        <div class="flex items-center justify-between">
+                          <button type="submit" class="  bg-red-500 hover:bg-blue-700 text-white font-bold py-1 px-3 rounded focus:outline-none focus:shadow-outline">Send</button>
+                        </div>
+                      </form>
+                </div>
+
+                <div class="here">
+                    <h2 class="text-white text-xl font-bold mx-4 mb-2" >Learn more</h2>
+                    <ul class="ml-4">
+                        <li><a href="#BLOG">BLOG</a></li>
+                        <li><a href="#COACHING">COACHING</a></li>
+                        <li><a href="#LATEST">LATEST</a></li>
+                        <li><a href="#NEWSLETTER">NEWSLETTER</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h2 class="come text-white text-xl font-bold mx-4 mb-4">Follow us</h2>
+                    <ul class="logo ml-4 space-y-3">
+                        <li><a href="#">
+                            <i class="fab fa-facebook text-blue-500 text-2xl"></i>
+                        </a></li>
+
+                        <li><a href="">
+                            <i class="fab fa-instagram text-white text-2xl"></i>
+                        </a></li>
+                        
+                        <li><a href="">
+                            <i class="fab fa-twitter text-2xl text-blue-500"></i>
+                        </a></li>
+                        
+                    </ul>
+                </div>
+
+                <div>
+                    <h2 class="text-pink-600 text-xl font-bold font-pacifico mx-4 mb-2">Gofitness</h2>
+                    <p class="mx-4"> Copyright ©️2020  by Gofitness
+                         <br>
+                         All rights reserved.
+                    </p>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
